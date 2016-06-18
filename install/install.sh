@@ -1,0 +1,6 @@
+#!/bin/sh
+
+INSTALLATION_DIR=""
+EXPORT_DIR="${WORKSPACE}"
+
+cd "${WORKSPACE}"
