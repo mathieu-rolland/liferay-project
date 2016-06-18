@@ -24,3 +24,4 @@ tar xvf "${PACKAGE_NAME}.tar"
 cd "${INSTALLATION_DIR}/LiferayWorkspace"
 chmod +x gradlew
 ./gradlew initBundle
+mkdir -p ${INSTALLATION_DIR}/LiferayWorkspace/bundles/tomcat-8.0.32/logs
