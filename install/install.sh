@@ -17,4 +17,9 @@ mv "${PACKAGE_NAME}" "${INSTALLATION_DIR}"
 echo "Unpackage archive ${PACKAGE_NAME}"
 cd "${INSTALLATION_DIR}"
 gunzip "${PACKAGE_NAME}"
+
 tar xvf "${PACKAGE_NAME}"
+
+cd "${INSTALLATION_DIR}/LiferayWorkspace"
+chmod +x gradlew
+./gradlew initBundle
